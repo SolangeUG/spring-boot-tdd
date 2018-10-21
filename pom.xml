@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>tdd</name>
-	<description>An example project of test-driven development with Spring Boot</description>
+	<description>An example project of test driven development with Spring Boot</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
