@@ -8,13 +8,13 @@ An example of a test driven development project with Spring Boot.
 ## Languages - Libraries - Tools
 
 - [Spring Boot][2]
-- [Java SE 8][3]
+- [Java SE 11][3]
 - [Maven][4]
-- Any IDE that supports JDK 8
+- Any IDE that supports JDK 11
 
 ## Requirements
 
-- [JDK 8][6]
+- [OpenJDK 11][6]
 - [Maven][7] - the latest release and recommended version.
 
 
@@ -34,8 +34,8 @@ Copyright (c) Filmed at SpringOne Platform 2017 - All rights reserved.
 
 [1]: https://docs.oracle.com/en/java/
 [2]: https://projects.spring.io/spring-boot/
-[3]: https://docs.oracle.com/javase/8/docs/
+[3]: https://docs.oracle.com/en/java/javase/11/
 [4]: https://maven.apache.org/what-is-maven.html
-[6]: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+[6]: https://openjdk.java.net/install/
 [7]: https://maven.apache.org/download.cgi
 [8]: https://content.pivotal.io/springone-platform-2017/test-driven-development-with-spring-boot-sannidhi-jalukar-madhura-bhave
