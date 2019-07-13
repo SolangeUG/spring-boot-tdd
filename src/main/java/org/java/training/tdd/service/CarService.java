@@ -1,4 +1,4 @@
-package org.java.training.tdd.controller;
+package org.java.training.tdd.service;
 
 import org.java.training.tdd.model.Car;
 import org.springframework.stereotype.Service;
