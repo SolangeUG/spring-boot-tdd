@@ -13,6 +13,6 @@ public class CarService {
     }
 
     public Car detailsFor(String name) {
-        return carRepository.find(name);
+        return carRepository.findByName(name);
     }
 }

@@ -4,7 +4,6 @@ import org.java.training.tdd.model.Car;
 import org.java.training.tdd.repository.CarRepository;
 import org.junit.Before;
 import org.junit.Test;
-import org.mockito.Mockito;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
@@ -26,7 +25,7 @@ public class CarServiceShould {
     public void return_a_car_given_its_name() {
         String name = "tesla";
         Car expected = new Car(name, "electric");
-        when(carRepository.find(name)).thenReturn(expected);
+        when(carRepository.findByName(name)).thenReturn(expected);
 
         Car actual = carService.detailsFor(name);
 
