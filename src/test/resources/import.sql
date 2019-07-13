@@ -1,3 +1,3 @@
 -- Database: testdb
 
-INSERT INTO cars(id, name, type) values (1, 'prius', 'hybrid');
+INSERT INTO cars(id, name, type) values (4, 'prius', 'hybrid');
