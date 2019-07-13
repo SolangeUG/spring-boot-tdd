@@ -30,7 +30,6 @@ public class CarControllerShould {
         String name = "prius";
         String type = "hybrid";
         Car prius = new Car(name, type);
-
         when(carService.detailsFor(name)).thenReturn(prius);
 
         mockMvc.perform(get("/cars/{name}", name))
