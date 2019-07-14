@@ -29,4 +29,11 @@ public class AT_Application {
         assertThat(requireNonNull(response.getBody()).getName()).isEqualTo("prius");
         assertThat(requireNonNull(response.getBody()).getType()).isEqualTo("hybrid");
     }
+
+    @Test
+    public void return_a_car_not_found_response_when_given_an_uknown_car() {
+        ResponseEntity<Car> response = restTemplate.getForEntity("/cars/tesla", Car.class);
+
+        assertThat(response.getStatusCode()).isEqualTo(HttpStatus.NOT_FOUND);
+    }
 }
