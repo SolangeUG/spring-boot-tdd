@@ -17,6 +17,10 @@ public class CarController {
 
     @GetMapping(value = "/cars/{name}")
     public Car getCarDetails(@PathVariable String name) {
-        return carService.detailsFor(name);
+        Car car = carService.detailsFor(name);
+        if (car == null) {
+            throw new CarNotFoundException();
+        }
+        return car;
     }
 }

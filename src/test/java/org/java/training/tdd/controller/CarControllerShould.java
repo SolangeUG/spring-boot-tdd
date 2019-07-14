@@ -37,4 +37,13 @@ public class CarControllerShould {
                 .andExpect(jsonPath("name").value(name))
                 .andExpect(jsonPath("type").value(type));
     }
+
+    @Test
+    public void return_a_car_not_found_response() throws Exception {
+        String name = "tesla";
+        when(carService.detailsFor(name)).thenReturn(null);
+
+        mockMvc.perform(get("/cars/{name}", name))
+                .andExpect(status().isNotFound());
+    }
 }
