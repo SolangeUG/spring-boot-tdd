@@ -1,6 +1,6 @@
 # Test Driven Development with Spring Boot
 
-[![Java Platform](https://img.shields.io/badge/platform-Java-blue.svg)][1]
+[![Java Platform](https://img.shields.io/badge/platform-Java-blue.svg?logo=Java)][1]
 [![Spring Boot Framework](https://img.shields.io/badge/framework-Spring%20Boot-brightgreen.svg?logo=Spring)][2]
 
 
